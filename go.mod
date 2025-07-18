@@ -1,6 +1,6 @@
 module github.com/argoproj/argo-workflows/v3
 
-go 1.21
+go 1.23.0
 
 require (
 	cloud.google.com/go/storage v1.36.0
@@ -57,7 +57,7 @@ require (
 	github.com/xeipuuv/gojsonschema v1.2.0
 	golang.org/x/crypto v0.19.0
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9
-	golang.org/x/oauth2 v0.16.0
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/sync v0.6.0
 	golang.org/x/time v0.5.0
 	google.golang.org/api v0.156.0
@@ -122,8 +122,7 @@ require (
 
 require (
 	cloud.google.com/go v0.111.0 // indirect
-	cloud.google.com/go/compute v1.23.3 // indirect
-	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	cloud.google.com/go/iam v1.1.5 // indirect
 	github.com/Azure/azure-sdk-for-go v66.0.0+incompatible // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.9.1
@@ -273,7 +272,6 @@ require (
 	golang.org/x/sys v0.17.0 // indirect
 	golang.org/x/term v0.17.0
 	golang.org/x/text v0.14.0 // indirect
-	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/protobuf v1.32.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
